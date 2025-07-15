@@ -51,7 +51,7 @@
       max-width: 700px;
       text-align: center;
     }
-    img {
+    figure img {
       width: 250px;
       height: auto;
       border-radius: 8px;
@@ -62,6 +62,11 @@
       color: #444;
       margin-top: 10px;
       font-style: italic;
+    }
+    footer div {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
     }
   </style>
 </head>
@@ -134,12 +139,18 @@
     </div>
   </section>
 
-  <footer>
-    <section id="contato">
-      <h2>Contato</h2>
-      <p>Responsável: Lavinia Cordeiro Ramos de Oliveira</p>
-      <p>Email: ramoslavinia14@gmail.com</p>
-    </section>
+    <footer>
+      <div>
+        <section id="contato">
+          <h2>Contato</h2>
+          <p>Responsável: Lavinia Cordeiro Ramos de Oliveira</p>
+          <p>Email: ramoslavinia14@gmail.com</p>
+        </section>
+        <section id="apoio">
+          <h2>Apoio:</h2>
+          <img src="imgs/fapes.png">
+        </section>
+      </div>
     <p>© 2025 Protocolo de Teleatendimento Nutricional | Projeto com apoio da FAPES</p>
   </footer>
 </body>
